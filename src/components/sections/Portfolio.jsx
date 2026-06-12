@@ -192,7 +192,7 @@ const ProjectCard = ({ project, index, onOpen }) => {
         {/* Status Badge */}
         <div className="project-status-badges">
           <span className={`project-status-badge status-${project.status.toLowerCase()}`}>
-            {project.status === "Deployed" ? "● Deployed" : "● Building"}
+            {project.status === "Deployed" ? "● Deployed" : "● Finished"}
           </span>
         </div>
 

@@ -17,7 +17,7 @@ import SceneBackground from './components/ui/SceneBackground';
 // UI
 import CustomCursor from './components/ui/CustomCursor';
 import ScrollProgress from './components/ui/ScrollProgress';
-import ChatBot from './components/ui/ChatBot';
+// import ChatBot from './components/ui/ChatBot'; Chat Bot
 
 // Hooks
 import useLenis from './hooks/useLenis';
@@ -57,7 +57,7 @@ const App = () => {
             <Contact />
           </main>
           <Footer />
-          <ChatBot isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
+          {/* <ChatBot isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} /> ChatBot */}
         </>
       )}
     </>
